@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+  }
+
+header{
+    position: relative;
+    height: 170px;
+    width: 100%;
+    background-image: url(https://static.parastorage.com/services/editor-elements/dist/media/ironpatern.6522082f.png);
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.4);
+}
+
+body {
+    position: relative;
+    height: fit-content;
+}
+
+.top{
+    position: absolute;
+    height: 52px;
+    width: 100%;
+    margin-top: 42px;
+}
+
+.top_name{
+    display: block;
+    width: 105px;
+    text-shadow: rgb(10, 189, 240, 0.3) 3px 3px 0px,rgb(254, 1, 1, 0.3) -3px -3px 0px;
+    font-family: 'Donau Uppercase';
+    color: black;
+    font-size: 42px;
+    margin: 0 auto;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 95px;
+}
+
+.menu_list {
+    width: 61px;
+    height: 32px;
+    margin: 8px;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+}
+
+.menu_button {
+    color: rgba(0, 0, 0, 0.3);
+
+}
+
+.menu_button:hover {
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+    transition: all 0.5s 0s ease;
+}
+
+#home_button {
+    color: rgba(0,0,0);
+}
+
+#home_button:hover {
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+    transition: all 1s 0s ease;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.side_content {
+    padding-left: 10px;
+    padding-top: 50px;
+    border-left: 1px grey dashed;
+    width:fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0px;
+    left: 75%;
+}
+
+.recent_reports {
+    position: relative;
+    width: 200px;
+    height: 403px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border: 2px solid #ccc;
+}
+
+.recent_reports iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+.main_content {
+    width: 60%;
+}
+
+.explanation {
+    width: 90%;
+    margin-top: 70px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.i-ungo_activity {
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.days {
+    margin-top: 20px;
+}
+
+.days p {
+    width: 85%;
+}
+
+.days span {
+    line-height: 35px;
+}
+
+.main_content h3 {
+    font-family:sans-serif;
+    font-weight: lighter;
+}
+
+.articles {
+
+    height: fit-content;
+    width: 700px;
+}
+
+.article {
+    width: 260px;
+    height: 90px;
+    border: 1px black solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.introduction {
+    height: 403px;
+    width: 310px;
+    margin-top: 40px;
+    margin-left: 10px;
+    background-color: #bd7b704f;
+    position: relative;
+    box-shadow: 1px 3px 3px 1px rgba(0,0,0,0.4);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.green_leaves{
+    position: absolute;
+    height: 312px;
+    width: 165px;
+    z-index: -1;
+    margin-top: 120px;
+    opacity: .85;
+}
+
+
+.sentences .reason .language {
+    font-size: 14px;
+    font-family: tsukushibmarugothic,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+}
+
+.my_name {
+    font-size: 22px;
+    font-weight: lighter;
+    display: inline-block;
+    width: 110px;
+    height: 22px;
+    position: absolute;
+    padding: 0;
+    top: 34px;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.introduction_sentences {
+    position: absolute;
+    width: 250px;
+    height: 180px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.sentences {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.about_me {
+    height: 341px;
+    width: 310px;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: relative;
+    box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.4);
+    background-color: #9d550e80;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.reason {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    top: 20px;
+    right: 0;
+    left: 0;
+    margin-left: 10%;
+}
+
+.language {
+    position: absolute;
+    width: 250px;
+    height: 140px;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+    margin-left: 10%;
+}
+
+.photo_garary {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.photo {
+    width: 80%;
+    margin: 10px 10px;
+    
+}
+
+.photo span {
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+    background-image: url(../photo/piano.webp);
+    background-size: cover;
+}
+
+.photo p {
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+    background-image: url(../photo/sakura.webp);
+    background-size: cover;
+}
+
+.photo h1 {
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+    background-image: url(../photo/flower.jpg);
+    background-size: cover;
+}
+
+.photo h2 {
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+    background-image: url(../photo/deutsch.jpg);
+    background-size: cover;
+}
+
+.row {
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    background-image: url(https://static.parastorage.com/services/editor-elements/dist/media/ironpatern.6522082f.png);
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    bottom: 0;
+}
+
+.icon {
+    display: block;
+    height: 50px;
+    width: 50px;
+    padding-top: 45px;
+    margin-left: 48%;
+}
+
+.icon_leaf {
+    transition: .5s;
+}
+
+.icon_leaf:hover {
+    opacity: .6;
+    transition: all 0.5s 0s ease;    
+}
+

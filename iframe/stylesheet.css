@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header p {
+    margin: 8px ;
+    background: linear-gradient(transparent 30%, mistyrose 70%);
+}
